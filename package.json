@@ -1,0 +1,31 @@
+{
+  "name": "wuyoucms",
+  "version": "0.0.1",
+  "description": "Web framework for Node.js",
+  "keywords": [
+    "Web",
+    "framework",
+    "CMS"
+  ],
+  "author": {
+    "name": "garmbrood",
+    "email": "garmbrood@gmail.com",
+    "url": "https://github.com/garmbrood/wuyoucms"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garmbrood/wuyoucms.git"
+  },
+  "private": true,
+  "main": "wuyoucms.js",
+  "scripts": {
+    "start": "node ./wuyoucms.js"
+  },
+  "dependencies": {
+      "connect":"*",
+      "serve-static":"*",
+      "cookie-parser":"*",
+      "body-parser":"*",
+      "path-to-regexp":"*"
+  }
+}
